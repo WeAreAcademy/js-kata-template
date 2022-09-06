@@ -1,0 +1,19 @@
+{
+  "name": "js-kata-template",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "your name here",
+  "license": "MIT",
+  "test": "jest",
+  "scripts": {
+    "start": "node src/main.js",
+    "test": "jest",
+    "test:watch": "jest --watchAll"
+  },
+  "dependencies": {
+    "@types/jest": "^29.0.0"
+  },
+  "devDependencies": {
+    "jest": "^29.0.2"
+  }
+}
