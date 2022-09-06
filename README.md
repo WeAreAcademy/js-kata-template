@@ -19,3 +19,7 @@ or
 # Run without tests
 
 `yarn start` - this will run node src/main.js
+
+# Writing tests
+
+See https://jestjs.io/docs/expect
