@@ -7,7 +7,4 @@ function sum(a, b) {
     return a + b;
 }
 
-
-//Export functions and constants incommon-js module form - outdated but still common.
-//Done differently in TypeScript
-module.exports = { sum };
+export { sum };

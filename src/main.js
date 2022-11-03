@@ -1,6 +1,4 @@
-//Import functions and constants from modules in "common-js" format.
-//This is outdated but still common.  Not used in TypeScript.
-const { sum } = require("./sum");
+import { sum } from "./sum.js";
 
 console.log("sum is ", sum(10, 20));
 console.log("This is main.js.");
